@@ -1,0 +1,78 @@
+body,html{
+    background-color: #e4dada;
+    font-family:'Oswald';
+    font-size: 22px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+        max-width: 100%;
+        margin: 0 auto;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*----------------------------HEADER--------------------------------------*/
+/*------------------------------------------------------------------------*/
+header{
+    background-color: #775656;
+}
+header ul{
+    
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+header ul li a img{
+    height: auto;
+    width: 40px;
+    border-radius: 50%;
+}
+
+header ul li a:hover,
+header ul li a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+    font-size: 103%;
+}
+
+h1{
+    text-align: center;
+}
+/*------------------------------------------------------------------------*/
+/*----------------------------Images--------------------------------------*/
+/*------------------------------------------------------------------------*/
+.images-section{
+ background-color: #edd2d2
+}
+.images1{
+    height: auto ;
+    opacity: 0.9;
+}
+.images1:hover{
+    transform: scale(1.13);    
+}
+/*------------------------------------------------------------------------*/
+/*----------------------------Footer--------------------------------------*/
+/*------------------------------------------------------------------------*/
+.footer-section{
+    
+}
+.image-icon{
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+}
+footer a{
+    text-decoration: none;
+    margin-bottom: -5px;
+}
+footer a img{
+    margin-bottom: -5px;
+}
